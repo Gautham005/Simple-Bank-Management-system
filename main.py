@@ -2,7 +2,7 @@ import pickle
 import os
 import pathlib
 
-os.system("""echo "Welcome to Bank Management system built by Gautham S, Akshay G and Vishnu V " | spd-say -e """)
+os.system("""echo "Welcome to Bank Management system built by Gautham S" | spd-say -e """)
 class Account :
     accNo = 0
     name = ''
@@ -52,7 +52,7 @@ def intro():
     print("\t\t\t\t**********************")
     print("\t\t\t\tBANK MANAGEMENT SYSTEM")
     print("\t\t\t\t**********************")
-    print("\t\t\tBy: Gautham S, Akshay G, Vishnu V")
+    print("\t\t\tBy: Gautham S")
 
 
 
